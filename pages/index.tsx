@@ -36,7 +36,7 @@ const Project: React.FC<{ project: ProjectType }> = ({ project }) => {
     <Card height="auto" alignItems="center">
       <CardHeader bg="gray.200" marginTop={"1rem"} width="100%">
         <Center>
-          <Text>{project.name}</Text>
+          <Text fontWeight="bold">{project.name}</Text>
         </Center>
       </CardHeader>
       <CardBody>
@@ -45,8 +45,12 @@ const Project: React.FC<{ project: ProjectType }> = ({ project }) => {
             src={project.pictures[0]}
             alt={project.name}
             maxWidth={"100%"}
+            maxHeight={"400px"}
           />
         )}
+        <Box bg="gray.200" margin="1rem 0" padding="1rem">
+          <Text>{project.description}</Text>
+        </Box>
       </CardBody>
       <CardFooter>
         {project.github && (
@@ -67,7 +71,7 @@ const Project: React.FC<{ project: ProjectType }> = ({ project }) => {
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Johnny Nguyen Portfolio</title>
         <meta name="description" content="Johnny Nguyen Portfolio" />
@@ -76,11 +80,20 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <AboutMe />
-        <Section>
+        <Section backgroundColor="whiteAlpha.100">
           <Center bg={"gray.300"}>
             <Text fontSize="xl">Projects</Text>
           </Center>
-          <SimpleGrid columns={3} spacing={10}>
+          <Box padding="1rem">
+            <Text color="red.500">
+              <strong>Disclaimer: </strong>
+              Many of these projects were hosted on the free version of Heroku
+              which had discontinued their free services in late 2022. The
+              GitHub repositories are linked, but it is likely that applications
+              are offline. Apologies!
+            </Text>
+          </Box>
+          <SimpleGrid columns={3} spacing={10} minChildWidth="300px">
             {projects &&
               projects.map((project, index) => {
                 return <Project key={index} project={project}></Project>;
@@ -88,6 +101,6 @@ export default function Home() {
           </SimpleGrid>
         </Section>
       </main>
-    </div>
+    </>
   );
 }

@@ -173,7 +173,7 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .content {
     padding: 4rem;
   }
@@ -247,10 +247,14 @@
     );
     z-index: 1;
   }
+
+  .main {
+    padding: 0;
+  }
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 768) and (max-width: 1024) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }

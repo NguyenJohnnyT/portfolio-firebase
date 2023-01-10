@@ -36,16 +36,29 @@ export const AboutMe: React.FC = () => {
           {" "}
           And so it continued for around 50 days! I received an offer from
           Indeed, known for their job board website that helps people get jobs
-          and companies obtain the best talent. As a UX developer, I would go on
-          to maintain Indeed.Design which showcases their brand and design
-          system, starting in August of 2022.
+          and companies obtain the best talent. Starting in August of 2022 as a
+          UX developer, I would go on to maintain Indeed.Design which showcases
+          their brand and design system. Eventually, I joined a team responsible
+          for the marketing site for small and medium business sized employers.
+          I would contribute to design and coding discussions while under the
+          mentorship of mid-senior level engineers. We would create and
+          contribute to a design system with the goal of having this ecosystem
+          that is usable to non-technical audiences, assessible to all users,
+          and unique to Indeed&apos;s visual identity, to be adopted by all of
+          Indeed.
+        </Text>
+        <Text>
+          Needless to say the jump from a startup to corporate widened my views
+          of the industry. I intend to keep learning from multiple viewpoints
+          and absorb all I can as a fledgeling developer from my fellow
+          engineers, designers, and managers.
         </Text>
         <Text>
           {" "}
           My current hobbies include rock climbing, working out, playing piano,
           watching Twitch streams (mostly Dota2 and Starcraft), and leaving
           Hololive in the background while I work. I love listening to music and
-          love new suggestions!
+          new suggestions!
         </Text>
       </Stack>
     </Section>
