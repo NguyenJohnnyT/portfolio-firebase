@@ -6,7 +6,7 @@ import {
   LinkedInIcon,
   MediumIcon,
   ResumeIcon,
-} from "../../components/Section/Icons";
+} from "../../components/Icons";
 
 export const Header: React.FC = () => {
   return (
