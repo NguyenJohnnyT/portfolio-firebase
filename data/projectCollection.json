@@ -1,5 +1,35 @@
 [
   {
+    "name": "Redux Trivia Game",
+    "github": "https://github.com/NguyenJohnnyT/Trivia-game",
+    "deploy": "https://nguyenjohnnyt.github.io/Trivia-game/",
+    "description": "A trivia game using redux to manage global state. Keep track of high scores locally and change your questions based on the category!",
+    "pictures": [
+      "https://i.imgur.com/D6dQMEu.png",
+      "https://i.imgur.com/WbfWXxG.png",
+      "https://i.imgur.com/1CN4ZeY.png",
+      "https://i.imgur.com/D6dQMEu.png"
+    ],
+    "custom_order": 11,
+    "date": "2022-08",
+    "user_id": 1
+  },
+  {
+    "name": "Ts-portfolio",
+    "github": "https://github.com/NguyenJohnnyT/ts-portfolio",
+    "deploy": "https://jtn-portfolio-ts.herokuapp.com",
+    "description": "Revamped portfolio built with TypeScript and React using Ant Design as the styling framework and React Query for api calls, with SCSS as the main css component. I utilized what I learned from my time at Kernel to improve upon the original portfolio from coding bootcamp.",
+    "pictures": [
+      "https://i.imgur.com/PPQkwoN.png",
+      "https://i.imgur.com/2u6wX49.png",
+      "https://i.imgur.com/QzMFWQS.png",
+      "https://i.imgur.com/W0c7Iay.png"
+    ],
+    "custom_order": 10,
+    "date": "2022-06",
+    "user_id": 1
+  },
+  {
     "name": "TAMAGACHA",
     "description": "Final project from UC Berkeley coding bootcamp. Collect all five Tamas -- they each have different stories! Feed, play, and take them out.  See what they're saying when they're hungry, sad, or happy.  Make sure to keep up and check on them to see their happiness level or else they will die.",
     "github": "https://github.com/NguyenJohnnyT/Tamagacha",
@@ -108,36 +138,6 @@
     ],
     "custom_order": 9,
     "date": "2021-11",
-    "user_id": 1
-  },
-  {
-    "name": "Ts-portfolio",
-    "github": "https://github.com/NguyenJohnnyT/ts-portfolio",
-    "deploy": "https://jtn-portfolio-ts.herokuapp.com",
-    "description": "Revamped portfolio built with TypeScript and React using Ant Design as the styling framework and React Query for api calls, with SCSS as the main css component. I utilized what I learned from my time at Kernel to improve upon the original portfolio from coding bootcamp.",
-    "pictures": [
-      "https://i.imgur.com/PPQkwoN.png",
-      "https://i.imgur.com/2u6wX49.png",
-      "https://i.imgur.com/QzMFWQS.png",
-      "https://i.imgur.com/W0c7Iay.png"
-    ],
-    "custom_order": 10,
-    "date": "2022-06",
-    "user_id": 1
-  },
-  {
-    "name": "Redux Trivia Game",
-    "github": "https://github.com/NguyenJohnnyT/Trivia-game",
-    "deploy": "https://nguyenjohnnyt.github.io/Trivia-game/",
-    "description": "A trivia game using redux to manage global state. Keep track of high scores locally and change your questions based on the category!",
-    "pictures": [
-      "https://i.imgur.com/D6dQMEu.png",
-      "https://i.imgur.com/WbfWXxG.png",
-      "https://i.imgur.com/1CN4ZeY.png",
-      "https://i.imgur.com/D6dQMEu.png"
-    ],
-    "custom_order": 11,
-    "date": "2022-08",
     "user_id": 1
   }
 ]
